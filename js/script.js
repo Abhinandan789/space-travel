@@ -224,13 +224,13 @@ function changeImg2(){
 techBtn3.addEventListener('click', changeImg3);
 function changeImg3(){
     if (sWidth  >= 1280){
-        tecImage.style.backgroundImage = "url(/assets/technology/image-space-capsule-portrait.jpg)";
+        tecImage.style.backgroundImage = "url(assets/technology/image-space-capsule-portrait.jpg)";
     }
     else if (sWidth  >= 768){
-        tecImage.style.backgroundImage = "url(/assets/technology/image-space-capsule-landscape.jpg)";
+        tecImage.style.backgroundImage = "url(assets/technology/image-space-capsule-landscape.jpg)";
     }
     else if (sWidth  >= 375){
-        tecImage.style.backgroundImage = "url(/assets/technology/image-space-capsule-landscape.jpg)";
+        tecImage.style.backgroundImage = "url(assets/technology/image-space-capsule-landscape.jpg)";
     }
     techMain.innerHTML = "SPACE CAPSULE";
     techDesc.innerHTML = "A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained.";
